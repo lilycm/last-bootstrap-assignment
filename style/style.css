@@ -5,6 +5,12 @@ body{
     margin: 0;
     padding: 0;
 }
+.navclass{
+    background: rgb(224, 170, 170);
+}
+.home-sec{
+    margin-top: 100px;
+}
 .television{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -25,7 +31,7 @@ font-weight: 500;
     margin-top: 50px;
 }
 .background{
-    background-color: black;
+    background-color: rgb(235, 175, 175);
     border-radius: 10px;
 }
 .phone{
@@ -41,7 +47,7 @@ font-weight: 500;
     margin-left: 30px;
 }
 .product{
-    background: black;
+    background: rgb(230, 171, 171);
 }
 .watch,
 .shoes,
@@ -106,7 +112,7 @@ font-size: 12px;
 font-weight: 500;
 }
 .email{
-    background: black;
+    background: rgb(228, 171, 171);
     height: 50vh;
     border-radius: 7px;
     justify-content: center;
@@ -128,7 +134,7 @@ font-weight: 500;
     color: white;
 }
 footer{
-    background: rgb(8, 122, 122);
+    background: rgb(105, 3, 3);
     height: 30vh;
 }
 .links{
