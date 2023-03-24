@@ -47,11 +47,7 @@ font-weight: 500;
 .phone{
     width: 40vw;
 }
-.laptop{
-    width: 55vw;
-    perspective: 400px;
-    transform-style: preserve-3d;
-}
+
 .catagories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -168,4 +164,142 @@ footer{
 .hrstyle{
     height: 2px;
     color: white;
+}
+/* media query for mobile start */
+@media screen and (max-width: 767px){
+    .navbar{
+        width: 100%;
+        position: fixed;
+    }
+    .home-sec{
+        width: 100%;
+    }
+    .television{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .tv-info{
+        text-align: center;
+    }
+    .laptop1 img{
+       width: 90vw;
+    }
+    .laptop img{
+        width: 90vw;
+     }
+     .laptop{
+        width: 50vw;
+        height: 60vh;
+    }
+    .laptop1{
+        width: 50vw;
+        height: 70.40vh;
+    }
+    .cat-sec{
+        width: 100%;
+    }
+    .cata h3{
+        text-align: center;
+    }
+    .catagories{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 23px;
+    }
+    .watch,
+.shoes,
+.bags{
+    display: flex;
+    justify-content: space-around;
+    width: 286px;
+    height: 10vh;
+    border-radius: 7px;
+    align-items: center;
+    margin: 5px 0px;
+}
+.clock{
+    width: 15vw;
+}
+.clock1{
+    width: 27vw;
+}
+    .product{
+        width: 100%;
+    }
+    .shoe-card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+    }
+}
+/* media query for tab start */
+@media screen and (min-width: 768px) and (max-width:992px){
+    .navbar{
+        width: 100%;
+        position: fixed;
+    }
+    .home-sec{
+        width: 100%;
+    }
+    .television{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    .cat-sec{
+        width: 100%;
+    }
+    .catagories{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cata h3{
+        text-align: center;
+    }
+    .watch,
+    .shoes,
+    .bags{
+        display: flex;
+        justify-content: space-around;
+        width: 286px;
+        height: 10vh;
+        border-radius: 7px;
+        align-items: center;
+        margin: 5px 0px;
+    }
+    .clock{
+        width: 10vw;
+    }
+    .clock1{
+        width: 20vw;
+    }
+    .product{
+        width: 100%;
+    }
+    .shoe-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+    }
+    .touch{
+        width: 100%;
+    }
+    .con-sec{
+        width: 100%;
+    }
+    .laptop1 img{
+        width: 50vw;
+     }
+     .laptop img{
+         width: 50vw;
+      }
+      .laptop{
+         width: 50vw;
+         height: 65vh;
+     }
+     .laptop1{
+         width: 50vw;
+         height: 62.70vh;
+     }
 }
