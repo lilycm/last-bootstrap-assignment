@@ -39,8 +39,8 @@ font-weight: 500;
 }
 .laptop{
     width: 55vw;
-    perspective: 200;
-
+    perspective: 400px;
+    transform-style: preserve-3d;
 }
 .catagories{
     display: grid;
