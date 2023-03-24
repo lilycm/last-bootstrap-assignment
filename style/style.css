@@ -1,0 +1,129 @@
+main{
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.television{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tv-info a{
+text-decoration: none;
+background: linear-gradient(red, rgb(151, 1, 1));
+padding: 5px 10px;
+border-radius: 5px;
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+.amount{
+    color: rgb(192, 3, 3);
+}
+.tv-info{
+    margin-top: 50px;
+}
+.background{
+    background-color: black;
+    border-radius: 10px;
+}
+.phone{
+    width: 40vw;
+}
+.laptop{
+    width: 55vw;
+
+}
+.catagories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+}
+.product{
+    background: black;
+}
+.watch,
+.shoes,
+.bags{
+    display: flex;
+    justify-content: space-around;
+    width: 286px;
+    border-radius: 7px;
+    align-items: center;
+}
+.watch{
+    background: linear-gradient(rgb(252, 57, 89), rgb(182, 2, 32));
+}
+.shoes{
+    background: linear-gradient(rgb(0, 255, 191), rgb(0, 121, 143));
+}
+.bags{
+    background: linear-gradient(rgb(255, 153, 0), gold);
+}
+.clock{
+    width: 5vw;
+}
+.clock1{
+    width: 12vw;
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+}
+.product-info a{
+    text-decoration: none;
+    color: rgb(182, 103, 0);
+    font-weight: 400;
+    margin-right: 65px;
+}
+.shoe-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.shoe-product2{
+    width: 286px;
+    height: 270px;
+}
+.bag-women{
+    height: 250px; 
+}
+.shoe-product,
+.shoe-product1{
+    height: 250px;
+}
+.card-body a{
+    text-decoration: none;
+background: linear-gradient(red, rgb(151, 1, 1));
+padding: 5px 10px;
+border-radius: 5px;
+color: white;
+font-size: 12px;
+font-weight: 500;
+}
+.email{
+    background: black;
+    height: 50vh;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.touch{
+    border: none;
+    background: white;
+    padding: 10px 18px;
+    border-radius: 5px 0px 0px 5px;
+}
+.send{
+    border: none;
+    background:linear-gradient(red, rgb(155, 1, 1));
+    padding: 10px 18px;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+}
