@@ -6,7 +6,7 @@ body{
     padding: 0;
 }
 .navclass{
-    background: rgb(107, 2, 2);
+    background: rgb(219, 149, 152);
 }
 .home-sec{
     margin-top: 100px;
@@ -14,6 +14,15 @@ body{
 .television{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+}
+.laptop{
+    width: 50vw;
+    height: 80vh;
+}
+.laptop1{
+    width: 50vw;
+    height: 76.40vh;
 }
 .tv-info a{
 text-decoration: none;
@@ -29,6 +38,7 @@ font-weight: 500;
 }
 .tv-info{
     margin-top: 50px;
+    margin-left: 20px;
 }
 .background{
     background-color: rgb(235, 175, 175);
@@ -95,6 +105,9 @@ font-weight: 500;
 .shoe-product2{
     width: 286px;
     height: 250px;
+}
+.shoe-product3{
+    height: 225px;
 }
 .bag-women{
     height: 250px; 
