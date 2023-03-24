@@ -6,7 +6,7 @@ body{
     padding: 0;
 }
 .navclass{
-    background: rgb(224, 170, 170);
+    background: rgb(107, 2, 2);
 }
 .home-sec{
     margin-top: 100px;
@@ -39,12 +39,13 @@ font-weight: 500;
 }
 .laptop{
     width: 55vw;
+    perspective: 200;
 
 }
 .catagories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 30px;
+    margin-left: 97px;
 }
 .product{
     background: rgb(230, 171, 171);
@@ -93,15 +94,15 @@ font-weight: 500;
 }
 .shoe-product2{
     width: 286px;
-    height: 270px;
+    height: 250px;
 }
 .bag-women{
     height: 250px; 
 }
-.shoe-product,
+/* .shoe-product,
 .shoe-product1{
     height: 250px;
-}
+} */
 .card-body a{
     text-decoration: none;
 background: linear-gradient(red, rgb(151, 1, 1));
