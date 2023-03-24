@@ -5,6 +5,10 @@ body{
     margin: 0;
     padding: 0;
 }
+.logo{
+    width: 5vw;
+    margin-right: 10px;
+}
 .navclass{
     background: rgb(219, 149, 152);
 }
@@ -238,6 +242,13 @@ footer{
     .navbar{
         width: 100%;
         position: fixed;
+    }
+    .container{
+        padding: 0;
+    }
+    .logo{
+        width: 5vw;
+        margin-right: 0px;
     }
     .home-sec{
         width: 100%;
